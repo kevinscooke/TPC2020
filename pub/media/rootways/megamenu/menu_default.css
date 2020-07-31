@@ -1,0 +1,111 @@
+/**
+ * WARNING: Please don't edit this file. This file was generated automatically, your any changes on this file will be overwritten and lost.
+ * Updated on 2020-07-30 15:48:52 */
+
+.nav-sections, .rootmenu{ 
+    background: #8CC63F;
+}
+.rootmenu .rootmenu-list{
+    text-align: left;
+}
+.rootmenu-list > li {
+    border-right-color: #808285 !important;
+    float: none;
+    display: table-cell;
+    clear: both !important;
+    }
+.rootmenu-list > li > a{ 
+    color: #FFFFFF;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.rootmenu-list > li:hover > a,
+.rootmenu-list > li > a:hover{
+  background: #60872B;
+  color: #FFFFFF;
+}
+.rootmenu-list > li > a.active {
+    background: #8CC63F;
+      color: #FFFFFF;
+}
+
+.rootmenu .title a,
+.rootmenu .title a{
+    color: #8CC63F;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.rootmenu > .rootmenu-list .halfmenu,
+.rootmenu > .rootmenu-list > li > .megamenu { 
+    background: #FFFFFF;
+    text-transform: none;
+}
+
+.rootmenu > .rootmenu-list .halfmenu ul > li > a,
+.rootmenu > .rootmenu-list .fullmenu ul > li > a { color: #424242; }
+.rootmenu > .rootmenu-list .halfmenu ul > li > a:hover,
+.rootmenu > .rootmenu-list .fullmenu ul > li > a:hover {  color: #808285; }
+    .rootmenu > .rootmenu-list .level2-popup > li:hover .sub-cat-name,
+    .rootmenu > .rootmenu-list .level3-popup > li:hover a span,
+    .rootmenu > .rootmenu-list .level3-listing >li:hover > a,
+    .rootmenu > .rootmenu-list .level4-listing >li:hover > a,
+    .rootmenu > .rootmenu-list .tabbing_lev4 >li:hover > a,
+    .rootmenu > .rootmenu-list .ulliststy02 >li:hover > a{text-decoration:underline}
+
+.topmenu_main,
+.rootmenu .tabmenu .verticalopen,
+.rootmenu .rootmenu-list .tabmenu { background: #FFFFFF !important;}
+
+.rootmenu .tabmenu .tabimgtext,
+.rootmenu .rootmenu-list .view_all{
+    color: #FFFFFF;
+    font-size: px;
+}
+.rootmenu .tabmenu .vertical-menu > li > a{
+    background: #F5F5F5;
+    border-bottom-color: #E2E2E2 !important;
+    color: #424242;
+    font-size: 12px;
+}
+.rootmenu > .rootmenu-list .tabmenu .vertical-menu .main_openactive01 > a {
+    background: #FFFFFF;
+    color: #FFFFFF;
+}
+.rootmenu .tabmenu .tabimgtext:hover{
+      color: #FFFFFF;
+}
+
+
+.rootmenu > .rootmenu-list .rootmenu-submenu li  a{
+    background: #F6F6F6;
+    border-bottom-color: #FFFFFF !important;
+    color: #000000;
+    font-size: 12px !important;
+}
+.rootmenu > .rootmenu-list .rootmenu-submenu li a:hover,
+.rootmenu > .rootmenu-list .rootmenu-submenu li:hover > a{
+    background: #E2E2E2 !important;
+    color: #000000 !important;
+}
+
+@media only screen and (min-width:768px) {
+        
+        
+            .contactus_menu {position: relative;}
+        .megamenu.fullmenu.contacthalfmenu.clearfix {
+            width: 370px;
+            right: 0 !important;
+            left: inherit;
+        }
+        }
+
+@media only screen and (max-width:767px){
+    .rootmenu-list > li{
+        float: none !important;
+    }
+}

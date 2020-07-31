@@ -1,0 +1,1 @@
+/var/www/html/app/code/Rootways/Megamenu/view/adminhtml/web/js/form/element/color-select.js
