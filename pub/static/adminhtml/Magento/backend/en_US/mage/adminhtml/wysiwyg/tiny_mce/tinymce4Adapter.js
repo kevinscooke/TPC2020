@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter.js
+/var/www/html/magento2/lib/web/mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter.js

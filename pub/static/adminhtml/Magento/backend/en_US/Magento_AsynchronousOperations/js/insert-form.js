@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-asynchronous-operations/view/adminhtml/web/js/insert-form.js
+/var/www/html/magento2/vendor/magento/module-asynchronous-operations/view/adminhtml/web/js/insert-form.js

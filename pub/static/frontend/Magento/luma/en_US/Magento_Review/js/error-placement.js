@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-review/view/frontend/web/js/error-placement.js
+/var/www/html/magento2/vendor/magento/module-review/view/frontend/web/js/error-placement.js

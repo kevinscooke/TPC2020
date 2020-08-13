@@ -17,6 +17,19 @@ class Interceptor extends \Magento\Catalog\Helper\Product\View implements \Magen
     /**
      * {@inheritdoc}
      */
+    public function initProductLayout(\Magento\Framework\View\Result\Page $resultPage, $product, $params = null)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'initProductLayout');
+        if (!$pluginInfo) {
+            return parent::initProductLayout($resultPage, $product, $params);
+        } else {
+            return $this->___callPlugins('initProductLayout', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function prepareAndRender(\Magento\Framework\View\Result\Page $resultPage, $productId, $controller, $params = null)
     {
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'prepareAndRender');
@@ -24,6 +37,19 @@ class Interceptor extends \Magento\Catalog\Helper\Product\View implements \Magen
             return parent::prepareAndRender($resultPage, $productId, $controller, $params);
         } else {
             return $this->___callPlugins('prepareAndRender', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function isModuleOutputEnabled($moduleName = null)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'isModuleOutputEnabled');
+        if (!$pluginInfo) {
+            return parent::isModuleOutputEnabled($moduleName);
+        } else {
+            return $this->___callPlugins('isModuleOutputEnabled', func_get_args(), $pluginInfo);
         }
     }
 }

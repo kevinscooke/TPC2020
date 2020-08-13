@@ -17,6 +17,45 @@ class Interceptor extends \Magento\Eav\Model\AttributeSetRepository implements \
     /**
      * {@inheritdoc}
      */
+    public function save(\Magento\Eav\Api\Data\AttributeSetInterface $attributeSet)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'save');
+        if (!$pluginInfo) {
+            return parent::save($attributeSet);
+        } else {
+            return $this->___callPlugins('save', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getList(\Magento\Framework\Api\SearchCriteriaInterface $searchCriteria)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'getList');
+        if (!$pluginInfo) {
+            return parent::getList($searchCriteria);
+        } else {
+            return $this->___callPlugins('getList', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function get($attributeSetId)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'get');
+        if (!$pluginInfo) {
+            return parent::get($attributeSetId);
+        } else {
+            return $this->___callPlugins('get', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function delete(\Magento\Eav\Api\Data\AttributeSetInterface $attributeSet)
     {
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'delete');
@@ -24,6 +63,19 @@ class Interceptor extends \Magento\Eav\Model\AttributeSetRepository implements \
             return parent::delete($attributeSet);
         } else {
             return $this->___callPlugins('delete', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function deleteById($attributeSetId)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'deleteById');
+        if (!$pluginInfo) {
+            return parent::deleteById($attributeSetId);
+        } else {
+            return $this->___callPlugins('deleteById', func_get_args(), $pluginInfo);
         }
     }
 }

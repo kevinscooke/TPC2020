@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/template.js
+/var/www/html/magento2/lib/web/mage/template.js

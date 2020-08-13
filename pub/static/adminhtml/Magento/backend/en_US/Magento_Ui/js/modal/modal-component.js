@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-ui/view/base/web/js/modal/modal-component.js
+/var/www/html/magento2/vendor/magento/module-ui/view/base/web/js/modal/modal-component.js

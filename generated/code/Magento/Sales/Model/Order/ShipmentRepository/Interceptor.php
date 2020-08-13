@@ -39,4 +39,56 @@ class Interceptor extends \Magento\Sales\Model\Order\ShipmentRepository implemen
             return $this->___callPlugins('getList', func_get_args(), $pluginInfo);
         }
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function delete(\Magento\Sales\Api\Data\ShipmentInterface $entity)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'delete');
+        if (!$pluginInfo) {
+            return parent::delete($entity);
+        } else {
+            return $this->___callPlugins('delete', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function deleteById($id)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'deleteById');
+        if (!$pluginInfo) {
+            return parent::deleteById($id);
+        } else {
+            return $this->___callPlugins('deleteById', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function save(\Magento\Sales\Api\Data\ShipmentInterface $entity)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'save');
+        if (!$pluginInfo) {
+            return parent::save($entity);
+        } else {
+            return $this->___callPlugins('save', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function create()
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'create');
+        if (!$pluginInfo) {
+            return parent::create();
+        } else {
+            return $this->___callPlugins('create', func_get_args(), $pluginInfo);
+        }
+    }
 }

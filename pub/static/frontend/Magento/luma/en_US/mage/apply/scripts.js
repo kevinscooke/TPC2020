@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/apply/scripts.js
+/var/www/html/magento2/lib/web/mage/apply/scripts.js

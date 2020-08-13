@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-ui/view/frontend/web/js/model/messageList.js
+/var/www/html/magento2/vendor/magento/module-ui/view/frontend/web/js/model/messageList.js

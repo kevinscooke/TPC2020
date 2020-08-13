@@ -1,1 +1,1 @@
-/var/www/html/lib/web/extjs/defaults.js
+/var/www/html/magento2/lib/web/extjs/defaults.js

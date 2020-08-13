@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/requirejs/mixins.js
+/var/www/html/magento2/lib/web/mage/requirejs/mixins.js

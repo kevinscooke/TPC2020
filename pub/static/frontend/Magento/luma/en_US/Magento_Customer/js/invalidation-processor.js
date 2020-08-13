@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-customer/view/frontend/web/js/invalidation-processor.js
+/var/www/html/magento2/vendor/magento/module-customer/view/frontend/web/js/invalidation-processor.js

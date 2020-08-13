@@ -1,1 +1,1 @@
-/var/www/html/lib/web/jquery/fileUploader/jquery.fileupload-fp.js
+/var/www/html/magento2/lib/web/jquery/fileUploader/jquery.fileupload-fp.js

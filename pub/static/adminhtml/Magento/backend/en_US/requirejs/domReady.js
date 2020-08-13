@@ -1,1 +1,1 @@
-/var/www/html/lib/web/requirejs/domReady.js
+/var/www/html/magento2/lib/web/requirejs/domReady.js

@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-theme/view/frontend/web/js/view/breadcrumbs.js
+/var/www/html/magento2/vendor/magento/module-theme/view/frontend/web/js/view/breadcrumbs.js

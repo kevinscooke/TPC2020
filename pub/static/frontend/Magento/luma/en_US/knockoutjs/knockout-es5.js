@@ -1,1 +1,1 @@
-/var/www/html/lib/web/knockoutjs/knockout-es5.js
+/var/www/html/magento2/lib/web/knockoutjs/knockout-es5.js

@@ -1,1 +1,1 @@
-/var/www/html/lib/web/jquery/ui-modules/dialog.js
+/var/www/html/magento2/lib/web/jquery/ui-modules/dialog.js

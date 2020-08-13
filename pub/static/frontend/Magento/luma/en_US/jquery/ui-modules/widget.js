@@ -1,1 +1,1 @@
-/var/www/html/lib/web/jquery/ui-modules/widget.js
+/var/www/html/magento2/lib/web/jquery/ui-modules/widget.js

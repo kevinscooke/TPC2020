@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-ui/view/base/web/js/grid/columns/column.js
+/var/www/html/magento2/vendor/magento/module-ui/view/base/web/js/grid/columns/column.js

@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-product-video/view/frontend/web/js/fotorama-add-video-events.js
+/var/www/html/magento2/vendor/magento/module-product-video/view/frontend/web/js/fotorama-add-video-events.js

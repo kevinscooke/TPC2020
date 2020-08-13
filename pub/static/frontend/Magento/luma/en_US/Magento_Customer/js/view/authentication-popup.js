@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-customer/view/frontend/web/js/view/authentication-popup.js
+/var/www/html/magento2/vendor/magento/module-customer/view/frontend/web/js/view/authentication-popup.js
