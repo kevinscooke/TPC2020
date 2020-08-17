@@ -1,1 +1,1 @@
-/var/www/html/lib/web/jquery/jquery.cookie.js
+/var/www/html/magento2/lib/web/jquery/jquery.cookie.js

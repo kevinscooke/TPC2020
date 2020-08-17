@@ -1,1 +1,1 @@
-/var/www/html/lib/web/jquery/jquery-ui-1.9.2.js
+/var/www/html/magento2/lib/web/jquery/jquery-ui-1.9.2.js

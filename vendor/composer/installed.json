@@ -18071,7 +18071,8 @@
         "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
         "keywords": [
             "tokenizer"
-        ]
+        ],
+        "abandoned": true
     },
     {
         "name": "phpunit/phpunit",
@@ -18976,7 +18977,8 @@
             }
         ],
         "description": "FinderFacade is a convenience wrapper for Symfony's Finder component.",
-        "homepage": "https://github.com/sebastianbergmann/finder-facade"
+        "homepage": "https://github.com/sebastianbergmann/finder-facade",
+        "abandoned": true
     },
     {
         "name": "sebastian/global-state",

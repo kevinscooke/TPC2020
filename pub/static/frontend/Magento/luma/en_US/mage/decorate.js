@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/decorate.js
+/var/www/html/magento2/lib/web/mage/decorate.js

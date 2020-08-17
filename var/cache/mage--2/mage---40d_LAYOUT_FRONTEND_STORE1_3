@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1596209716;s:6:"expire";i:9999999999;s:4:"tags";s:37:"40d_LAYOUT_GENERAL_CACHE_TAG,40d_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1597348383;s:6:"expire";i:9999999999;s:4:"tags";s:37:"40d_LAYOUT_GENERAL_CACHE_TAG,40d_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6991,21 +6991,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1596209716;s:6:"expire";i:9999999999;s:4:"t
          </argument>
       </arguments>
    </referenceBlock>
-</body>
-</handle><handle id="default"><head>
-   <css src="Rootways_Megamenu::css/rootmenu.css"/>
-   <script src="Rootways_Megamenu::js/rootmenu.js"/>
-</head>
-<body>
-   <referenceContainer name="head.additional">
-      <block class="Rootways\Megamenu\Block\Main3" name="rootwaysmenuhead" template="rootways/megamenu/head.phtml" ifconfig="rootmegamenu_option/general/enable" before="-"/>
-   </referenceContainer>
-   <referenceBlock name="catalog.topnav" remove="true"/>
-   <referenceContainer name="store.menu">
-      <block class="Rootways\Megamenu\Block\Main3" name="roomegamenu" template="Rootways_Megamenu::rootways/megamenu/main_3.phtml" before="-">
-                
-             </block>
-   </referenceContainer>
 </body>
 </handle><handle id="checkout_cart_index"><body>
    <referenceBlock name="checkout.cart.totals">

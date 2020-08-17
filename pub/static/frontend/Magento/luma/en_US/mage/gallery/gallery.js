@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/gallery/gallery.js
+/var/www/html/magento2/lib/web/mage/gallery/gallery.js

@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/adminhtml/grid.js
+/var/www/html/magento2/lib/web/mage/adminhtml/grid.js

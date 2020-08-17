@@ -1,1 +1,1 @@
-/var/www/html/lib/web/es6-collections.js
+/var/www/html/magento2/lib/web/es6-collections.js

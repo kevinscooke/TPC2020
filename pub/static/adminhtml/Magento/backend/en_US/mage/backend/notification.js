@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/backend/notification.js
+/var/www/html/magento2/lib/web/mage/backend/notification.js

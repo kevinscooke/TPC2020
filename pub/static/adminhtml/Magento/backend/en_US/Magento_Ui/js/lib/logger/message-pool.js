@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-ui/view/base/web/js/lib/logger/message-pool.js
+/var/www/html/magento2/vendor/magento/module-ui/view/base/web/js/lib/logger/message-pool.js

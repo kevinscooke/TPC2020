@@ -1,1 +1,1 @@
-/var/www/html/vendor/msp/recaptcha/view/frontend/web/js/registry.js
+/var/www/html/magento2/vendor/msp/recaptcha/view/frontend/web/js/registry.js

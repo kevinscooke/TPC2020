@@ -1,1 +1,1 @@
-/var/www/html/lib/web/jquery/jstree/jquery.hotkeys.js
+/var/www/html/magento2/lib/web/jquery/jstree/jquery.hotkeys.js

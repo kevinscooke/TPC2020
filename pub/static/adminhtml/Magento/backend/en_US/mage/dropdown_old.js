@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/dropdown_old.js
+/var/www/html/magento2/lib/web/mage/dropdown_old.js

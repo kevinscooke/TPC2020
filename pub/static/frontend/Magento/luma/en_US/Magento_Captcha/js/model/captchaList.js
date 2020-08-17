@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-captcha/view/frontend/web/js/model/captchaList.js
+/var/www/html/magento2/vendor/magento/module-captcha/view/frontend/web/js/model/captchaList.js

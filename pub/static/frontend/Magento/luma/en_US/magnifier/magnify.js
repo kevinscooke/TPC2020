@@ -1,1 +1,1 @@
-/var/www/html/lib/web/magnifier/magnify.js
+/var/www/html/magento2/lib/web/magnifier/magnify.js

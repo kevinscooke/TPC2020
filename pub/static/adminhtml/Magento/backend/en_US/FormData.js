@@ -1,1 +1,1 @@
-/var/www/html/lib/web/FormData.js
+/var/www/html/magento2/lib/web/FormData.js

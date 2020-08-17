@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1596209702;s:6:"expire";i:9999999999;s:4:"tags";s:37:"40d_LAYOUT_GENERAL_CACHE_TAG,40d_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1597348428;s:6:"expire";i:9999999999;s:4:"tags";s:37:"40d_LAYOUT_GENERAL_CACHE_TAG,40d_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_dashboard_index"><body>
    <referenceContainer name="content">
@@ -8127,13 +8127,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1596209702;s:6:"expire";i:9999999999;s:4:"t
       </block>
    </referenceContainer>
 </body>
-</handle><handle id="adminhtml_system_config_edit"><head>
-   <css src="Rootways_Megamenu::css/custom.css"/>
-</head>
-</handle><handle id="catalog_category_edit" layout="admin-2columns-left"><update handle="styles"/>
-<head>
-   <css src="jquery/colorpicker/css/colorpicker.css"/>
-</head>
 </handle><layout id="sales_order_addcomment"><referenceContainer name="root">
    <block class="Magento\Framework\View\Element\Messages" name="messages" as="messages" ifconfig="tax/vertex_settings/enable_vertex" template="Vertex_Tax::order/view/messages.phtml"/>
 </referenceContainer>

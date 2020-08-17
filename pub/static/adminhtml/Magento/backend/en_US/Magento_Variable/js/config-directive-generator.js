@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-variable/view/adminhtml/web/js/config-directive-generator.js
+/var/www/html/magento2/vendor/magento/module-variable/view/adminhtml/web/js/config-directive-generator.js

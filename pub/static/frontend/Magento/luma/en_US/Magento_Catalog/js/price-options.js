@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-catalog/view/base/web/js/price-options.js
+/var/www/html/magento2/vendor/magento/module-catalog/view/base/web/js/price-options.js

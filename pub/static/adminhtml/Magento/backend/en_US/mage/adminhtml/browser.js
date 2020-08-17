@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/adminhtml/browser.js
+/var/www/html/magento2/lib/web/mage/adminhtml/browser.js

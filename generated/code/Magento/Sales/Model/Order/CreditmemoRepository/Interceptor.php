@@ -30,6 +30,19 @@ class Interceptor extends \Magento\Sales\Model\Order\CreditmemoRepository implem
     /**
      * {@inheritdoc}
      */
+    public function create()
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'create');
+        if (!$pluginInfo) {
+            return parent::create();
+        } else {
+            return $this->___callPlugins('create', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function getList(\Magento\Framework\Api\SearchCriteriaInterface $searchCriteria)
     {
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'getList');
@@ -37,6 +50,32 @@ class Interceptor extends \Magento\Sales\Model\Order\CreditmemoRepository implem
             return parent::getList($searchCriteria);
         } else {
             return $this->___callPlugins('getList', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function delete(\Magento\Sales\Api\Data\CreditmemoInterface $entity)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'delete');
+        if (!$pluginInfo) {
+            return parent::delete($entity);
+        } else {
+            return $this->___callPlugins('delete', func_get_args(), $pluginInfo);
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function save(\Magento\Sales\Api\Data\CreditmemoInterface $entity)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'save');
+        if (!$pluginInfo) {
+            return parent::save($entity);
+        } else {
+            return $this->___callPlugins('save', func_get_args(), $pluginInfo);
         }
     }
 }

@@ -1,1 +1,1 @@
-/var/www/html/lib/web/jquery/jquery.metadata.js
+/var/www/html/magento2/lib/web/jquery/jquery.metadata.js

@@ -1,1 +1,1 @@
-/var/www/html/vendor/magento/module-ui/view/base/web/js/core/renderer/layout.js
+/var/www/html/magento2/vendor/magento/module-ui/view/base/web/js/core/renderer/layout.js

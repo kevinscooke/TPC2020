@@ -1,1 +1,1 @@
-/var/www/html/lib/web/fotorama/fotorama.js
+/var/www/html/magento2/lib/web/fotorama/fotorama.js

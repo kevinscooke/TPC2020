@@ -1,1 +1,1 @@
-/var/www/html/lib/web/MutationObserver.js
+/var/www/html/magento2/lib/web/MutationObserver.js

@@ -1,1 +1,1 @@
-/var/www/html/lib/web/mage/utils/wrapper.js
+/var/www/html/magento2/lib/web/mage/utils/wrapper.js

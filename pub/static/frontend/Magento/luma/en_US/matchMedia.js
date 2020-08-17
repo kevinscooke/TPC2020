@@ -1,1 +1,1 @@
-/var/www/html/lib/web/matchMedia.js
+/var/www/html/magento2/lib/web/matchMedia.js
